@@ -38,6 +38,8 @@ body {
 
 .col-main {
   /* border: 2px solid red; */
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .col-form {
@@ -236,7 +238,7 @@ body {
 
 .form-header {
   /* border: 5px solid rgb(25, 45, 99); */
-  background-image: url(../../media/img/formheaderV3.png);
+  background-image: url(../media/img/formheaderV3.png);
   background-size: 100%;
   background-repeat: no-repeat;
   margin: auto;
