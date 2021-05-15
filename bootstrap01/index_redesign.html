@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Design and Test Responsive Layout</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <!-- Credits https://www.youtube.com/watch?v=DZKf9l42WCo -->
+  </head>
+
+
+  <body>
+      
+    <div class="container-sm">
+		<div class="row row-header">
+			<!-- Header image is set on row-header background so it scales with difference size of screens -->
+		</div>
+
+      	<div class="row">
+			<div class="col-md-8 col-main">
+
+				<div class="row">
+					<div class="btn-reg">
+					  立即預約<img src="media/img/btn-booking-checked.png">
+					</div>
+				</div>
+				<div class="row">
+				  <div class="content-text">
+					  【節日限定】可能係最好嘅母親節父親節禮物
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="green-bar">
+					  香港浸信會醫院日間醫療中心健康檢查計劃
+				  </div>
+				</div>
+				<div class="row">
+					<div class="content-text">
+					  （優惠期至2021年7月31日止）
+					</div>
+				</div>
+
+						  
+				<div class="row">
+					<img width="550" src="media/img/amc.png">
+				</div>
+				  
+				<div class="row" style="text-align: left;">
+					<span class="content-text">關心爹哋媽咪嘅<span style="color: #0ba552">健康</span></span>
+					<span class="content-text">就係俾父母最好嘅<span style="color: #0ba552">節日禮物</span></span>
+				</div>
+				  
+				<div class="row">
+				
+					<div id="model-bubble">
+						<!-- <img id="modelimg" style="position:relative;top:205px;left:120px;" src="media/img/model.png">
+						<img id="bubbleimg" style="position:relative;top:-305px;left:-120px;" src="media/img/bubble.png"> -->
+					</div>
+				</div>
+					
+				<div class="row" style="text-align: left;">
+						<div class="content-text">浸醫AMC全為您健康檢查計劃</div>
+						<div class="content-text">(精選/綜合/尊尚)</div>
+				</div>
+					
+				<hr style=" border:1px solid #6f42c1;">
+					
+				<div class="row" style="text-align: left;">
+					<span class="content-text3">
+						此檢查計劃特意為審視盛年父母的健康指標而設，檢查項目包括膽固醇、糖尿及血壓水平；
+						肝、腎、肺功能；盆腔及前列腺狀況等。我們專業的醫療團隊，會細心分析檢查結果及給予
+						健康建議，全面掌握爸爸媽媽身體狀況，一同規劃未來，繼續樂享天倫。
+					</span>
+					<span class="content-text3-green">
+						優惠期至2021年7月31日止；服務地點：香港九龍觀
+						塘道348號國際貿易中心2樓（港鐵牛頭角站B5出口）</span>
+				</div>
+
+				<!-- Start of table -->
+				<div class="row content-text">
+					<p style="text-align: left;"><br>【全為您健康檢查計劃詳情】</p>
+				</div>
+	
+				<div class="row plan-header">
+					<div class="col-1">項目</div>
+					<div class="col">精選</div>
+					<div class="col">綜合</div>
+					<div class="col">尊尚</div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">醫生會面</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">檢查前、後共兩次</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">體格檢驗</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">護理評估、血壓、脈搏、
+						身高、體重指標（BMI）</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">血液檢測</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">全血計數-血色素、
+						紅血球、白血球、血小板</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">肺部健康評估</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">肺部X光</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">糖尿病評估</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">葡萄糖（禁食）</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">肝功能測試</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">鹼性磷酸酶、谷丙胺酸轉氨酶、
+						谷草胺酸轉氨酶、總膽紅素、
+						總蛋白質、白蛋白、球蛋白、
+						白蛋白/球蛋白比例</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">腎功能測試</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">鈉、鉀、尿素、血肌酸</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">脂質組合測試</div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">總膽固醇、高密度膽固醇、
+						低密度膽固醇、三酸甘油酯</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">痛風檢驗></div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">尿酸</div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">超聲波掃描></div>
+					<div class="col"></div>
+					<div class="col"></div>
+					<div class="col"></div>
+				</div>
+				<div class="row plan-row">
+					<div class="col-1">尿盆腔（女士）/前列腺（男士）
+						超聲波掃描酸</div>
+					<div class="col"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+					<div class="col"><img width="30" src="media/img/checked.png"></div>
+				</div>
+				<!-- End of table -->
+
+
+
+			<!-- END of col-main -->
+			</div>
+			
+			 <!-- Start Form here -->
+			<div class="col-md-4 col-form">
+
+				<div class="form-header">
+					<!-- cloud image is displayed at background -->
+					<div class="form-header-bottom-half">
+						 
+					</div>
+				</div>
+
+				<div class="form-body">
+					<p class="left">
+					<!--span style="font-size:20pt;font-weight:bold;">索取計劃詳請</span><br-->
+					浸醫 AMC 全為您健康檢查計劃<br>
+					精選/綜合/專尚
+					</p>
+					<form name="campaign" action="thanks.html" method="GET" onsubmit="doSubmit(this);"> 
+						<div class="form-body-row">
+							
+							<div style="color:dimgray;text-align:left;">* 必須</div>
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+								  <label class="input-group-text" for="inputGroupSelect01">稱謂*</label>
+								</div>
+								<select name="greet" class="custom-select col-sm-3" id="inputGroupSelect01">
+								  <option selected=""></option>
+								  <option value="先生">先生</option>
+								  <option value="女仕">女士</option>
+								  <option value="小姐">小姐</option>
+								</select>
+								&nbsp; &nbsp;<input name="surname" type="lastname" class="form-control " id="lastname" placeholder="姓*">
+							  </div>
+						</div>
+						<div class="form-body-row">
+							<input type="lastname" name="name" class="form-control " id="lastname" placeholder="名（可選擇不填寫）">
+						</div>
+						<div class="form-body-row">
+							<div style="color:dimgray;text-align:left;">點樣可以幫到您？<span style="font-color:red">*</span></div>
+							<select name="method" class="custom-select" id="inputGroupSelect01">
+								<option selected=""></option>
+								<option value="wtsapp">WHATSAPP您（請在下題留低電話號碼）</option>
+								<option value="call">打比您（請在下題留低電話號碼）</option>
+								<option value="email">Email比您（請在下題留低EMAIL）</option>
+							  </select>
+						</div>
+						<div class="form-body-row">
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="電郵">
+							</div>
+						</div>
+						<div class="form-body-row">
+							<div class="form-group">
+								<input type="phone" class="form-control" id="tel" name="tel" placeholder="電話">
+							</div>
+						</div>
+						<div class="form-body-row">
+							<select name="period" class="custom-select" id="inputGroupSelect01">
+								<option selected="">-- 任何時間 --</option>
+								<option value="9am">9:00 am</option>
+								<option value="9am">10:00 am</option>
+								<option value="9am">11:00 am</option>
+								<option value="9am">12:00 pm</option>
+								<option value="9am">1:00 pm</option>
+								<option value="9am">2:00 pm</option>
+							  </select>
+							  <div style="color:dimgray">星期一至五9am-9pm (公眾假期例外)</div>
+						</div>
+						<div class="form-body-row">
+							<div style="color:dimgray;text-align:left;">理想聯絡語言</div>
+							<select name="lang" class="custom-select" id="inputGroupSelect01">
+								<option value="canton" selected="">廣東話</option>
+								<option value="eng">English</option>
+								<option value="pth">普通話</option>
+							  </select>
+						</div>
+						<div class="form-body-row">
+							<div style="color:dimgray;text-align:left;"><input name="disclaim" type="checkbox"> * 本人同意提交以上個人資料予香港浸信會醫院日間醫療中心。並確認已閱讀收集<a href="https://amc.hkbh.org.hk/tc/privacy-policy/"><u>個人資料政策</u></a>及<a href="https://amc.hkbh.org.hk/tc/disclaimer/"><u>免責聲明</u></a>。<br><br></div>
+							<div style="color:dimgray;text-align:left;"><input name="promo" type="checkbox"> * 本人同意接收香港浸信會醫院日間醫療中心及香港浸信會醫院的推廣資訊。<br><br></div>
+							<div style="font-family:'Noto Sans HK',sans-serif; font-size:22px;font-weight:900;">預約或查詢</div>
+							<div style="font-family:'Noto Sans HK',sans-serif; font-size:22px;font-weight:900;">
+								<img src="media/img/phone.png"> 2123-1128
+								<br>
+								<img src="media/img/whatsapp.png"> 6516-1128
+							</div>
+						</div>
+						<div class="form-body-row">
+							<br>
+							<!-- <button type="submit" class="btn btn-primary btn-submit">按此提交</button> -->
+							<button type="submit" id="btn-submit">按此提交</button>
+						</div>
+						
+					</form>
+				</div>
+
+			</div>
+		</div>
+    
+	<!-- END of Main Container! Nothing should go outside of here! -->
+	</div>
+		
+
+
+
+
+
+
+   
+  </body>
+</html>
